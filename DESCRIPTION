@@ -1,0 +1,20 @@
+Package: hammer
+Title: Heterogeneity-Adjusted Multivariable Mendelian Randomization
+Version: 0.1
+Authors@R: 
+    c(person(given = "Ashish", family = "Patel", email = "ashish.patel@mrc-bsu.cam.ac.uk", role = c("cre","aut")),
+	person(given = "Jack", family = "Bowden", email = "JBWD@novonordisk.com", role = "aut"),
+	person(given = "Stephen", family = "Burgess", email = "sb452@medschl.cam.ac.uk", role = "aut"),
+	person(given = "Dmitry", family = "Shungin", email = "DMSN@novonordisk.com", role = "aut"))
+Description: A method for cis-multivariable Mendelian randomization with summary data.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
